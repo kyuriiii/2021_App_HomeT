@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_diary"
+            android:icon="@drawable/diary"
+            android:title="@string/menu_diary" />
+        <item
+            android:id="@+id/nav_hometraining"
+            android:icon="@drawable/hometraining"
+            android:title="@string/menu_hometraining" />
+        <item
+            android:id="@+id/nav_homecook"
+            android:icon="@drawable/homecook"
+            android:title="@string/menu_homecook" />
+    </group>
+
+    <item android:title="취미생활">
+        <menu>
+            <item
+                android:id="@+id/nav_onlinegame"
+                android:icon="@drawable/onlinegame"
+                android:title="@string/menu_game" />
+        </menu>
+    </item>
+
+</menu>

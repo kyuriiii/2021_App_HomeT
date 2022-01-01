@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mobile_filnalproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_diary"
+        android:name="com.example.mobile_filnalproject.ui.diary.DiaryFragment"
+        android:label="다이어리"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_hometraining"
+        android:name="com.example.mobile_filnalproject.ui.hometraining.HomeTrainingFragment"
+        android:label="@string/menu_hometraining"
+        tools:layout="@layout/fragment_hometraining" />
+
+    <fragment
+        android:id="@+id/nav_onlinegame"
+        android:name="com.example.mobile_filnalproject.ui.onlinegame.OnlineGameFragment"
+        android:label="@string/menu_game"
+        tools:layout="@layout/fragment_onlinegame" />
+
+    <fragment
+        android:id="@+id/nav_homecook"
+        android:name="com.example.mobile_filnalproject.ui.homecook.HomeCookFragment"
+        android:label="@string/menu_homecook"
+        tools:layout="@layout/fragment_homecook" />
+
+</navigation>

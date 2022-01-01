@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:mcv_selectionColor="#a9dbf0cb"
+            app:mcv_showOtherDates="defaults" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDDDDD"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtDiary"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#DDDDDD"
+            android:layout_weight="3"
+            android:ems="10"
+            android:gravity="start|center_vertical"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:padding="7sp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="저장" />
+    </LinearLayout>
+</LinearLayout>

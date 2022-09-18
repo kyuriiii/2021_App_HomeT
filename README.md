@@ -5,6 +5,7 @@
 - Java
 - Android
 
+## 애플리케이션 실행 화면
 <div style="display: flex">
   <img src="https://user-images.githubusercontent.com/47288015/190913907-4f74a417-35c0-415b-9c3e-bdc8a1ec9bd6.png" width="150">
   <img src="https://user-images.githubusercontent.com/47288015/190913909-3980e168-020d-4f92-a01f-ee83a8e05f73.png" width="150">
